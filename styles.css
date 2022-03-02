@@ -30,8 +30,30 @@ footer {
   color: #EEEEEE;
   font-family: 'Indie Flower', cursive;
 }
-@media (max-width:992px){
-  h1{
-    font-size: 5rem;
+@media (max-width:992px) and (min-width:684px){
+  .heading{
+    font-size: 6rem;
+  }
+  p{
+    font-size: 3rem;
+  }
+  footer{
+    font-size: 1.8rem;
   }
 }
+@media (max-width:683px){
+  .container{
+    width: 100%;
+  }
+  .heading{
+    font-size: 5rem;
+  }
+  p{
+    font-size: 2.8rem;
+  }
+  footer{
+    margin-top: 10%;
+    font-size: 1.8rem;
+  }
+}
+
